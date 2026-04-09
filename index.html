@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACD — Поэтапно</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <a href="main.html" class="logo">ACD</a>
+
+    <nav class="nav">
+      <a href="#" class="nav__link nav__link--active">Поэтапно</a>
+      <a href="#" class="nav__link">Референсы</a>
+      <a href="#" class="nav__link">На время</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="cards-slider">
+      <button class="slider-btn slider-btn--prev" type="button" id="prevBtn" aria-label="Назад">
+        ←
+      </button>
+
+      <div class="cards-stage" id="cardsStage"></div>
+
+      <button class="slider-btn slider-btn--next" type="button" id="nextBtn" aria-label="Вперед">
+        →
+      </button>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
