@@ -153,25 +153,25 @@ img {
 .task-card[data-position="0"] {
   z-index: 4;
   opacity: 1;
-  transform: translateX(0) translateY(0) rotate(3deg);
+  transform: translateX(0) translateY(0) rotate(0deg);
 }
 
 .task-card[data-position="1"] {
   z-index: 3;
   opacity: 1;
-  transform: translateX(26px) translateY(6px) rotate(-3deg);
+  transform: translateX(26px) translateY(6px) rotate(0deg);
 }
 
 .task-card[data-position="2"] {
   z-index: 2;
   opacity: 1;
-  transform: translateX(52px) translateY(12px) rotate(3deg);
+  transform: translateX(52px) translateY(12px) rotate(0deg);
 }
 
 .task-card[data-position="3"] {
   z-index: 1;
   opacity: 1;
-  transform: translateX(78px) translateY(18px) rotate(-3deg);
+  transform: translateX(78px) translateY(18px) rotate(0deg);
 }
 
 .task-card.is-leaving-left {
